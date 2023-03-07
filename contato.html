@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> 
+	<meta charset="UTF-8">
+	<title>Code - Contato</title>
+	<link rel="stylesheet" type="text/css" href="css/folhadeestilo.css">
+	<script src="https://kit.fontawesome.com/3191d78c1c.js" crossorigin="anonymous"></script>
+</head>
+
+<body class='color-page'>
+	<div class="container-principal" id="topo">
+		<header>
+			<div class="logo">
+				<a href="index.html">
+					<img src="imagem/logo.png" alt="logo site">
+				</a>	
+	        </div>
+	        
+	        <nav>
+	        	<ul>
+	        		<li><a href="index.html">Home</a></li>
+	        		<li><a href="clientes.html">clientes</a></li>
+	        		<li><a href="sobre.html">Sobre</a></li>
+	        		<li><a href="#topo">Contato</a></li>
+	        	</ul>
+	        </nav>
+		</header>
+
+		<div class='img-titulo'><img src="imagem/contato.png" alt="imagem de Contato"></div>
+
+		<section id="txt-contato">
+			<form nome="meu_form" id="meu_form">
+				<p class="nome">
+					<label for="nome">Nome:</label><br>
+					<input type="text" id="nomeid" placeholder="Ex: Fulano da Silva" required="required" nome="nome"/>
+				</p>
+				<p class="fone">
+					<label for="fone">Fone:</label><br>
+					<input type="phone" id="foneid" placeholder="(xx)xxxxx-xxxx" nome="fone"/>
+				</p>
+				<p>
+					<label for="email">E-mail:</label><br>
+					<input type="email" id="emailid" placeholder="fulano@mail.com" required="required"/>
+				</p>
+				<p>
+					<textarea placeholder="mensagem" required="required"></textarea>
+				</p>
+				<button type="submit" fomr="meu_form">Enivar</button>
+			</form>
+
+			<div id="conta-data">
+				<h4>Code - desenvolvimento de sites</h4><br>
+				<h5><i class="fa-solid fa-location-dot"></i> - Avenida Novos conhecimentos nº 2023</h5><br>
+				<h5><i class="fa-solid fa-phone"></i> - +55 11 99999-9999</h5><br>
+				<h5><i class="fa-solid fa-envelope"></i> - contato@code.com.br</h5><br>
+				<h5><i class="fa-brands fa-facebook"></i> - facebook.com\condedev</h5><br>
+				<h5><i class="fa-brands fa-instagram"></i> - @codedev</h5><br>
+			</div>
+		</section>
+
+	</div>
+</body>
+</html>
